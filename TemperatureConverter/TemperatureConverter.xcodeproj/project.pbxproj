@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91DA14E23565A6600A5D255 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DA14D23565A6600A5D255 /* Conversion.swift */; };
 		DB7716D6235658B60063CA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7716D5235658B60063CA79 /* AppDelegate.swift */; };
 		DB7716D8235658B60063CA79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7716D7235658B60063CA79 /* SceneDelegate.swift */; };
 		DB7716DA235658B60063CA79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7716D9235658B60063CA79 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D91DA14D23565A6600A5D255 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		DB7716D2235658B60063CA79 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7716D5235658B60063CA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB7716D7235658B60063CA79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				DB7716DE235658B80063CA79 /* Assets.xcassets */,
 				DB7716E0235658B80063CA79 /* LaunchScreen.storyboard */,
 				DB7716E3235658B80063CA79 /* Info.plist */,
+				D91DA14D23565A6600A5D255 /* Conversion.swift */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7716DA235658B60063CA79 /* ViewController.swift in Sources */,
+				D91DA14E23565A6600A5D255 /* Conversion.swift in Sources */,
 				DB7716D6235658B60063CA79 /* AppDelegate.swift in Sources */,
 				DB7716D8235658B60063CA79 /* SceneDelegate.swift in Sources */,
 			);
