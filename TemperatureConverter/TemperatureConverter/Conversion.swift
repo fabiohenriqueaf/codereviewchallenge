@@ -55,18 +55,18 @@ import Foundation
  */
 
 
-/// Converts temperature in celcius to its value in fahrenheit
-/// - Parameter temperature: temperature in celcius
-func celciusToFahrenheit(_ temperature: Float) -> Float {
+/// Converts temperature in celsius to its value in fahrenheit
+/// - Parameter temperature: temperature in celsius
+func celsiusToFahrenheit(_ temperature: Float) -> Float {
     
     return (temperature * 9/5) + 32
     
 }
 
 
-/// Converts temperature in celcius to its value in kelvin
-/// - Parameter temperature: temperature in celcius
-func celciusToKelvin(_ temperature: Float) -> Float {
+/// Converts temperature in celsius to its value in kelvin
+/// - Parameter temperature: temperature in celsius
+func celsiusToKelvin(_ temperature: Float) -> Float {
     return temperature + 273.15
 }
 
