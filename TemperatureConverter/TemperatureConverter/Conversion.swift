@@ -53,3 +53,9 @@ import Foundation
  - Only assign 1 person who responsible and allowed to merge all of the work into the master branch to avoid conflict in your project.
  - There will be Me, Haryanto, and David who love to help if you guys need help. Just grab us.
  */
+
+func celciusToFahrenheit(_ value: Float) -> Float {
+    
+    return (value * 9/5) + 32
+    
+}
